@@ -1,25 +1,67 @@
-import logo from './logo.svg';
-import './App.css';
+// import { BrowserRouter as Router, Switch, Route, Routes } from "react-router-dom";
+// import "./App.css";
+// import React, { useState } from "react";
+// import { Navbar, MenuBar } from "./components/navbar/Navbar";
+// import Home from "./pages/home/Home";
+// // import Services from "./pages/services/Services";
+// // import Projects from "./pages/projects/Projects";
+// // import Clients from "./pages/clients/Clients";
+// import Contact from "./pages/contact/contact";
+// import Footer from "./components/footer/Footer";
+
+// function App() {
+// 	const [menubar, setMenuBar] = useState(false);
+// 	return (
+// 		<>
+// 			<Router>
+// 				<Navbar setMenuBar={setMenuBar} menubar={menubar} />
+// 				<MenuBar menubar={menubar} />
+// 				{/* <Switch> */}
+// 				<Routes>
+// 					<Route path="/" exact component={Home} />
+// 					{/* <Route path="/services" component={Services} /> */}
+// 					{/* <Route path="/projects" component={Projects} /> */}
+// 					{/* <Route path="/clients" component={Clients} /> */}
+// 					<Route path="/contact" component={Contact} />
+// 				</Routes>
+// 				{/* </Switch> */}
+// 				<Footer />
+// 			</Router>
+// 		</>
+// 	);
+// }
+
+// export default App;
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import React, { useState } from "react";
+import { Navbar, MenuBar } from "./components/navbar/Navbar";
+import Home from "./pages/home/Home";
+// import Services from "./pages/services/Services";
+// import Projects from "./pages/projects/Projects";
+// import Clients from "./pages/clients/Clients";
+import Contact from "./pages/contact/contact";
+import Footer from "./components/footer/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [menubar, setMenuBar] = useState(false);
+	return (
+		<>
+			<Router>
+				<Navbar setMenuBar={setMenuBar} menubar={menubar} />
+				<MenuBar menubar={menubar} />
+				<Routes>
+					<Route path="/" element={<Home />} />
+					{/* <Route path="/services" element={<Services />} /> */}
+					{/* <Route path="/projects" element={<Projects />} /> */}
+					{/* <Route path="/clients" element={<Clients />} /> */}
+					<Route path="/contact" element={<Contact />} />
+				</Routes>
+				<Footer />
+			</Router>
+		</>
+	);
 }
 
 export default App;
