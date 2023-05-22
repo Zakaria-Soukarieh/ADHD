@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import "./Navbar.css";
-// import logo from "./JONCO_logo.png";
-import logo2 from "./JONCO_logo2.png";
+import logo from "./Logo.png";
+
 import menu from "./Menu.png";
 
 const Navbar = ({ setMenuBar, menubar }) => {
@@ -11,7 +11,7 @@ const Navbar = ({ setMenuBar, menubar }) => {
 		<div className="biggerthing">
 			<div className="navbar">
 				<div>
-					<img src={logo2} alt="JoncoMET" className="navbar-logo" />
+					<img src={logo} alt="JoncoMET" className="navbar-logo" />
 				</div>
 				<div className="navbar-list">
 					<button className="navbar-button">

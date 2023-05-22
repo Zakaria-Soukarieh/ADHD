@@ -38,7 +38,7 @@ import "./App.css";
 import React, { useState } from "react";
 import { Navbar, MenuBar } from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
-// import Services from "./pages/services/Services";
+// import Services from "./pages/services/Services.jsx";
 // import Projects from "./pages/projects/Projects";
 // import Clients from "./pages/clients/Clients";
 import Contact from "./pages/contact/contact";
