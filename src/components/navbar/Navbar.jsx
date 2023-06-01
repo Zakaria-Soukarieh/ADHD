@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import "./Navbar.css";
-import logo from "./Logo.png";
+import logo from "./adhd brain branding -10.svg";
 
 import menu from "./Menu.png";
 
@@ -11,20 +11,20 @@ const Navbar = ({ setMenuBar, menubar }) => {
 		<div className="biggerthing">
 			<div className="navbar">
 				<div>
-					<img src={logo} alt="JoncoMET" className="navbar-logo" />
+					<img src={logo} alt="ADHD" className="navbar-logo" />
 				</div>
-				<div className="navbar-list">
+				{/* <div className="navbar-list">
 					<button className="navbar-button">
 						<Link to="/">Home</Link>
 					</button>
 					<button className="navbar-button">
-						<Link to="/services">Services</Link>
+						<Link to="/UnderstandingADHDPage">What it is</Link>
 					</button>
 					<button className="navbar-button">
-						<Link to="/projects">Projects</Link>
+						<Link to="/projects">projects</Link>
 					</button>
 					<button className="navbar-button">
-						<Link to="/clients">Clients</Link>
+					<Link to="/tools">Helpful tools</Link>
 					</button>
 				</div>
 				<div className="navbar-contact">
@@ -33,7 +33,27 @@ const Navbar = ({ setMenuBar, menubar }) => {
 							Contact Us <KeyboardArrowRightIcon />
 						</Link>
 					</button>
+				</div> */}
+				<div className="navbar-list">
+					<Link to="/" className="navbar-button">
+						Home
+					</Link>
+					<Link to="/UnderstandingADHDPage" className="navbar-button">
+						What it is
+					</Link>
+					<Link to="/projects" className="navbar-button">
+						Projects
+					</Link>
+					<Link to="/tools" className="navbar-button">
+						Helpful tools
+					</Link>
 				</div>
+				<div className="navbar-contact">
+					<Link to="/contact" className="contact-button">
+						Contact Us <KeyboardArrowRightIcon />
+					</Link>
+				</div>
+				
 				<div className="navbar-menu">
 					<button className="menu-button" id="menuButton">
 						<img
@@ -56,13 +76,13 @@ const MenuBar = ({ menubar }) => {
 				<Link to="/">Home</Link>
 			</button>
 			<button className="menu-menu">
-				<Link to="/services">Services</Link>
+				<Link to="/UnderstandingADHDPage">UnderstandingADHDPage</Link>
 			</button>
 			<button className="menu-menu">
 				<Link to="/projects">Projects</Link>
 			</button>
 			<button className="menu-menu">
-				<Link to="/clients">Clients</Link>
+				<Link to="/tools">Helpful tools</Link>
 			</button>
 			<button className="menu-menu">
 				<Link to="/contact">Contact Us</Link>

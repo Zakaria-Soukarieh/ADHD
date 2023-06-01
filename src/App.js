@@ -38,9 +38,11 @@ import "./App.css";
 import React, { useState } from "react";
 import { Navbar, MenuBar } from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
-// import Services from "./pages/services/Services.jsx";
+import UnderstandingADHDPage from "./pages/UnderstandingADHDPage/UnderstandingADHDPage";
 // import Projects from "./pages/projects/Projects";
-// import Clients from "./pages/clients/Clients";
+import Tools from "./pages/tools/tools.jsx";
+// import Timer1 from "./components/timer/Timer";
+
 import Contact from "./pages/contact/contact";
 import Footer from "./components/footer/Footer";
 
@@ -53,9 +55,14 @@ function App() {
 				<MenuBar menubar={menubar} />
 				<Routes>
 					<Route path="/" element={<Home />} />
-					{/* <Route path="/services" element={<Services />} /> */}
+					<Route
+						path="/UnderstandingADHDPage"
+						element={<UnderstandingADHDPage />}
+					/>
 					{/* <Route path="/projects" element={<Projects />} /> */}
-					{/* <Route path="/clients" element={<Clients />} /> */}
+					{/* <Route path="/Tools" element={<Timer1 />} /> */}
+
+					<Route path="/Tools" element={<Tools />} />
 					<Route path="/contact" element={<Contact />} />
 				</Routes>
 				<Footer />

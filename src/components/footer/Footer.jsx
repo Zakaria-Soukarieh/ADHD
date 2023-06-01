@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./Logo.png";
+import logo from "./adhd brain branding -10.svg";
 import "./Footer.css";
 let FBurl = "https://www.facebook.com/LLumarWindowFilm/";
 let INurl = "https://www.instagram.com/jonco.trading/?igshid=YmMyMTA2M2Y%3D";
@@ -29,10 +29,10 @@ const Footer = () => {
 									<Link to="/">Home</Link>
 								</li>
 								<li className="routes">
-									<Link to="/services">Services</Link>
+									<Link to="/UnderstandingADHDPage">What it is</Link>
 								</li>
 								<li className="routes">
-									<Link to="/clients">Clients</Link>
+									<Link to="/tools">Helpful tools</Link>
 								</li>
 								<li className="routes">
 									<Link to="/projects">Projects</Link>
