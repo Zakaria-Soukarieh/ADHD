@@ -53,7 +53,7 @@ const Navbar = ({ setMenuBar, menubar }) => {
 						Contact Us <KeyboardArrowRightIcon />
 					</Link>
 				</div>
-				
+
 				<div className="navbar-menu">
 					<button className="menu-button" id="menuButton">
 						<img

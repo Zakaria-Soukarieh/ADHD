@@ -41,7 +41,8 @@ import Home from "./pages/home/Home";
 import UnderstandingADHDPage from "./pages/UnderstandingADHDPage/UnderstandingADHDPage";
 // import Projects from "./pages/projects/Projects";
 import Tools from "./pages/tools/tools.jsx";
-// import Timer1 from "./components/timer/Timer";
+import Timer1 from "./components/timer/Timer1";
+import TodoList from "./components/to-do/TodoList";
 
 import Contact from "./pages/contact/contact";
 import Footer from "./components/footer/Footer";
@@ -55,14 +56,15 @@ function App() {
 				<MenuBar menubar={menubar} />
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route
-						path="/UnderstandingADHDPage"
-						element={<UnderstandingADHDPage />}
-					/>
+					<Route path="/UnderstandingADHDPage" element={<UnderstandingADHDPage />} />
 					{/* <Route path="/projects" element={<Projects />} /> */}
-					{/* <Route path="/Tools" element={<Timer1 />} /> */}
 
-					<Route path="/Tools" element={<Tools />} />
+					<Route path="/tools" element={<Tools />}>
+						{/* <Route index element={<Navbar />} /> */}
+						<Route path='timer' element={<Timer1 />} />
+						<Route path='to-do' element={<TodoList />} />
+					</Route>
+
 					<Route path="/contact" element={<Contact />} />
 				</Routes>
 				<Footer />
