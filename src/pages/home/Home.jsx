@@ -1,5 +1,6 @@
 import "./home.css";
 import Testo from "../../components/testo/testo";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 	return (
@@ -51,7 +52,8 @@ const Home = () => {
 					techniques to productivity strategies, our tools can help improve
 					focus, time management, and overall well-being.
 				</p>
-				<a href="/tools" className="cta-button">Explore Tools</a>
+				<Link to='/tools' className="cta-button">Explore Tools </Link>
+				{/* <a href="/tools" className="cta-button">Explore Tools</a> */}
 			</section>
 			<section className="call-to-action">
 				<h2>Ready to Learn More?</h2>
