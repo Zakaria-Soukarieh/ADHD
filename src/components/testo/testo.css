@@ -32,6 +32,15 @@
 	font-weight: bold;
 	color: #ad6a41;
 }
+.slick-next {
+	display: none !important;
+}
+.slick-prev {
+	display: none !important;
+}
+.slick-dots{
+	background-color: #f7ede2;
+}
 
 .slick-dots li button:before {
 	color: #f7784f;
@@ -39,4 +48,30 @@
 
 .slick-dots li.slick-active button:before {
 	color: #4f0100;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+	.testimonials {
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+
+	.testimonials h2 {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+
+	.testimonials .testimonial {
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+
+	.testimonials .testimonial p {
+		font-size: 14px;
+	}
+
+	.testimonials .testimonial .testimonial-name {
+		font-size: 14px;
+	}
 }

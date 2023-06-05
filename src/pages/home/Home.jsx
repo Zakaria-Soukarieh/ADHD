@@ -62,7 +62,7 @@ const Home = () => {
 					Learn More
 				</a>
 			</section>
-			{<Testo />}
+			{<Testo className="testo" />}
 		</div>
 	);
 };
