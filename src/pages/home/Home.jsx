@@ -1,7 +1,5 @@
 import "./home.css";
 import Testo from "../../components/testo/testo";
-// import React, { useState } from "react";
-// import { Link } from "react-router-dom";
 
 const Home = () => {
 	return (
@@ -21,9 +19,6 @@ const Home = () => {
 					</a>
 				</div>
 			</section>
-			<div id="about" className="about">
-				batata
-			</div>
 			<section className="introduction">
 				<h2>Understanding ADHD</h2>
 				<p>
@@ -56,7 +51,7 @@ const Home = () => {
 					techniques to productivity strategies, our tools can help improve
 					focus, time management, and overall well-being.
 				</p>
-				<button>Explore Tools</button>
+				<a href="/tools" className="cta-button">Explore Tools</a>
 			</section>
 			<section className="call-to-action">
 				<h2>Ready to Learn More?</h2>

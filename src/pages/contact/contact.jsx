@@ -174,7 +174,7 @@ function Contact() {
 							</div>
 							<div className="text">
 								<p>Website</p>
-								<a href="https://www.avon.com">avon.com</a>
+								<a href="https://www.avohttps://main--adhd-gang.netlify.appn.com">ADHD-gang.com</a>
 							</div>
 						</div>
 					</div>

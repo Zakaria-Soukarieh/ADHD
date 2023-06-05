@@ -1,21 +1,20 @@
 :root {
-	--red: #f54e4e;
+	--red: #f87171;
 	--green: #4aec8c;
 }
 
-
 .Timer {
 	padding-top: 50px;
-	max-width: 340px;
-	margin: 0 auto;
+	/* max-width: 340px; */
+	margin-top: 20px;
 	text-align: center;
-	background-color: #30384b;
-	color: #eee;
+	background-color: #f1ddc9;
+	color: #1f2937;
 }
 
 button {
 	background-color: transparent;
-	color: rgba(255, 255, 255, 0.8);
+	color: #ad6a41;
 	border: 0;
 	display: inline-block;
 	width: 100px;
@@ -24,12 +23,13 @@ button {
 
 button.with-text {
 	width: auto;
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color: #e9bfa5;
 	border-radius: 10px;
 	padding: 10px 20px;
 	font-size: 1.4rem;
 	line-height: 36px;
 }
+
 button.with-text svg {
 	width: 36px;
 	float: left;

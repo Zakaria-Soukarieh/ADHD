@@ -1,8 +1,9 @@
 import React from "react";
+import "./UnderstandingADHDPage.css"
 
 const UnderstandingADHDPage = () => {
 	return (
-		<div>
+		<div className="understanding-adhd-page">
 			<h1>Understanding ADHD</h1>
 
 			<section>

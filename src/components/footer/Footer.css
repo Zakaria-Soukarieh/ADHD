@@ -4,14 +4,16 @@
   list-style: none;
   text-decoration: none;
 }
+
 .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #111827;
-  color: #fff;
+  background-color: #f7ede2;
+  color: #ad6a41;
   padding: 24px !important;
 }
+
 @media (max-width: 768px) {
   .firstBig {
     flex-direction: column;
@@ -23,6 +25,7 @@
     width: 100% !important;
   }
 }
+
 @media (max-width: 639px) {
   .secondSmall {
     flex-wrap: wrap;
@@ -37,19 +40,16 @@
     flex-direction: column;
   }
 }
+
 /* ------------------ */
 .firstBig {
   display: flex;
   justify-content: space-between;
-
-  /* margin-right: auto;
-  margin-left: auto; */
   padding: 0px 16px;
   max-width: 1280px;
-  /* border: red 1px solid; */
   width: 100%;
-  /* margin: 0 auto; */
 }
+
 .firstSmall {
   display: flex;
 }
@@ -63,15 +63,13 @@
 .logo-pic {
   height: 50px;
 }
+
 /* ----- logo ----------------- */
 
 .secondSmall {
   display: flex;
   flex-direction: row;
   width: 500px;
-  /* width: 100%; */
-  justify-content: space-between;
-  /* border: violet solid; */
 }
 
 .res-div {
@@ -80,6 +78,7 @@
   align-items: center;
   width: 150px;
 }
+
 .res {
   font-size: 14px;
   font-family: sans-serif;
@@ -87,14 +86,17 @@
   margin-bottom: 24px;
   width: 100%;
 }
+
 .HSCPC {
   width: 100%;
 }
+
 .allul a {
   text-decoration: none !important;
-  color: #9ca3af !important;
+  color: #5c3c2d !important;
   font-size: 16px;
 }
+
 .allul a:hover {
   text-decoration: underline !important;
 }
@@ -106,6 +108,7 @@
   align-items: center;
   font-weight: 500;
 }
+
 .routes-contact {
   font-size: 16px;
   font-family: sans-serif;
@@ -118,6 +121,7 @@
   align-items: center;
   width: 150px;
 }
+
 .fus {
   font-size: 14px;
   font-family: sans-serif;
@@ -125,9 +129,11 @@
   margin-bottom: 24px;
   width: 100%;
 }
+
 .Socials {
   width: 100%;
 }
+
 /* allul again */
 .Social-FI {
   font-size: 14px;
@@ -136,6 +142,7 @@
   align-items: center;
   font-weight: 500;
 }
+
 .Social-T {
   font-size: 16px;
   font-family: sans-serif;
@@ -156,9 +163,11 @@
   margin-bottom: 24px;
   width: 100%;
 }
+
 .PPTC {
   width: 100%;
 }
+
 /* allul again */
 .PP {
   font-size: 14px;
@@ -167,6 +176,7 @@
   align-items: center;
   font-weight: 500;
 }
+
 .TC {
   font-size: 16px;
   font-family: sans-serif;
@@ -177,7 +187,7 @@
   margin: 32px 0;
   width: 100%;
   border-bottom: 1px solid;
-  border-color: #374151;
+  border-color: #ad6a41;
 }
 
 .secondBig {
@@ -186,6 +196,7 @@
   width: 100%;
   max-width: 1280px;
 }
+
 .rights {
   font-size: 14px;
   font-family: sans-serif;
@@ -199,8 +210,15 @@
 
 .S-icons {
   display: flex;
-  /* border: red 1px solid; */
 }
+
+
+
+
+
+
+
+
 .BTFB{
   background-color: transparent;
   border: none;

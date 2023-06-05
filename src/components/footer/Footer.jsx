@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "./adhd brain branding -10.svg";
 import "./Footer.css";
-let FBurl = "https://www.facebook.com/LLumarWindowFilm/";
-let INurl = "https://www.instagram.com/jonco.trading/?igshid=YmMyMTA2M2Y%3D";
-let Turl = "https://twitter.com/llumarfilms?lang=en";
+let FBurl = "https://www.facebook.com/adhd/";
+let INurl = "https://www.instagram.com/adhd";
+let Turl = "https://twitter.com/adhd";
 
 const Footer = () => {
 	return (
@@ -50,7 +50,7 @@ const Footer = () => {
 							<ul className="allul">
 								<li className="Social-FI">
 									<a
-										href="https://www.facebook.com/LLumarWindowFilm/"
+										href="https://www.facebook.com/ADHD/"
 										target="_blank"
 										rel="noopener noreferrer">
 										Facebook
@@ -66,7 +66,7 @@ const Footer = () => {
 								</li>
 								<li className="Social-T">
 									<a
-										href="https://twitter.com/llumarfilms?lang=en"
+										href="https://twitter.com/adhd?lang=en"
 										target="_blank"
 										rel="noopener noreferrer">
 										Twitter
