@@ -41,9 +41,9 @@ const Navbar = ({ setMenuBar, menubar }) => {
 					<Link to="/UnderstandingADHDPage" className="navbar-button">
 						What it is
 					</Link>
-					<Link to="/projects" className="navbar-button">
+					{/* <Link to="/projects" className="navbar-button">
 						Projects
-					</Link>
+					</Link> */}
 					<Link to="/tools" className="navbar-button">
 						Helpful tools
 					</Link>
@@ -78,9 +78,9 @@ const MenuBar = ({ menubar }) => {
 			<button className="menu-menu">
 				<Link to="/UnderstandingADHDPage">UnderstandingADHDPage</Link>
 			</button>
-			<button className="menu-menu">
+			{/* <button className="menu-menu">
 				<Link to="/projects">Projects</Link>
-			</button>
+			</button> */}
 			<button className="menu-menu">
 				<Link to="/tools">Helpful tools</Link>
 			</button>
