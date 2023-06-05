@@ -58,7 +58,7 @@ const Home = () => {
 			<section className="call-to-action">
 				<h2>Ready to Learn More?</h2>
 				<p>Start your journey towards understanding and managing ADHD.</p>
-				<a href="/learn-more" className="cta-button">
+				<a href="/UnderstandingADHDPage" className="cta-button">
 					Learn More
 				</a>
 			</section>
